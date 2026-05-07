@@ -8,6 +8,15 @@
     <apn
         mcc="610"
         mnc="02"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="610"
+        mnc="02"
         carrier="Orange ML"
         apn="internet"
         password="internet"

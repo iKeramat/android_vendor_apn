@@ -8,6 +8,14 @@
     <apn
         mcc="370"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+    />
+    <apn
+        mcc="370"
+        mnc="01"
         carrier="Orange DO"
         apn="orangenet.com.do"
         mmsc=""
@@ -57,11 +65,34 @@
     <apn
         mcc="370"
         mnc="02"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="370"
+        mnc="02"
         carrier="Ideas CLARO"
         apn="internet.ideasclaro.com.do"
         authtype="3"
         password=""
         type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="370"
+        mnc="02"
+        carrier="Ideas CLARO"
+        apn="internet.ideasclaro.com.do"
+        authtype="3"
+        network_type_bitmask="18"
+        password=""
+        protocol="IPV4V6"
+        type="xcap"
         user=""
     />
     <apn

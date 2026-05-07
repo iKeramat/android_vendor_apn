@@ -27,6 +27,16 @@
     <apn
         mcc="202"
         mnc="01"
+        carrier="Cosmote Internet"
+        apn="internet"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IP"
+        type="default,ia,supl,xcap"
+    />
+    <apn
+        mcc="202"
+        mnc="01"
         carrier="Cosmote MMS"
         apn="mms"
         mmsc="http://mmsc.cosmote.gr:8002"
@@ -67,6 +77,16 @@
         roaming_protocol="IP"
         type="mms"
         user="user"
+    />
+    <apn
+        mcc="202"
+        mnc="09"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="202"

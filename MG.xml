@@ -129,4 +129,11 @@
         proxy=""
         type="mms"
     />
+    <apn
+        mcc="646"
+        mnc="04"
+        carrier="Telma ims"
+        apn="ims"
+        type="ims"
+    />
 </apns>

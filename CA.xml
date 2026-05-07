@@ -17,6 +17,15 @@
     <apn
         mcc="302"
         mnc="150"
+        carrier="Cogeco"
+        apn="data.cogecomobile.ca"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,mms,xcap"
+    />
+    <apn
+        mcc="302"
+        mnc="150"
         carrier="Cogeco IMS"
         apn="ims"
         bearer_bitmask="14|20"
@@ -38,6 +47,15 @@
     />
     <apn
         mcc="302"
+        mnc="150"
+        carrier="Cogeco SOS"
+        apn="sos"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="emergency"
+    />
+    <apn
+        mcc="302"
         mnc="220"
         carrier="Koodo"
         apn="sp.koodo.com"
@@ -50,6 +68,23 @@
         mvno_type="gid"
         protocol="IPV4V6"
         type="default,dun,ia,mms"
+        user_editable="false"
+    />
+    <apn
+        mcc="302"
+        mnc="220"
+        carrier="Koodo"
+        apn="sp.koodo.com"
+        bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
+        carrier_id="2020"
+        mmsc="http://aliasredirect.net/proxy/koodo/mmsc"
+        mmsport="8799"
+        mmsproxy="mmscproxy.mobility.ca"
+        mvno_match_data="4B4F"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IP"
+        type="default,mms,supl,ia"
         user_editable="false"
     />
     <apn
@@ -387,6 +422,23 @@
         mvno_type="gid"
         protocol="IPV4V6"
         type="default,dun,ia,mms"
+        user_editable="false"
+    />
+    <apn
+        mcc="302"
+        mnc="221"
+        carrier="Koodo"
+        apn="sp.koodo.com"
+        bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
+        carrier_id="2020"
+        mmsc="http://aliasredirect.net/proxy/koodo/mmsc"
+        mmsport="8799"
+        mmsproxy="mmscproxy.mobility.ca"
+        mvno_match_data="4B4F"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IP"
+        type="default,mms,supl,ia"
         user_editable="false"
     />
     <apn
@@ -1110,6 +1162,17 @@
         mmsproxy="74.115.197.70"
         type="mms"
         user_editable="false"
+    />
+    <apn
+        mcc="302"
+        mnc="490"
+        carrier="Freedom Mobile SOS"
+        apn="e911.mobilefrdm.ca"
+        carrier_id="1895"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="emergency"
+        user_visible="false"
     />
     <apn
         mcc="302"

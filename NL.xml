@@ -22,12 +22,43 @@
     <apn
         mcc="204"
         mnc="02"
+        carrier="Tele2 IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="204"
+        mnc="02"
         carrier="Tele2 NL"
         apn="internet.tele2.nl"
         mmsc="http://mmsc.tele2.nl"
         mmsport="8080"
         mmsproxy="193.12.40.64"
         type="default,supl,mms"
+    />
+    <apn
+        mcc="204"
+        mnc="02"
+        carrier="Tele2 NL"
+        apn="internet.tele2.nl"
+        mmsc="http://mmsc.tele2.nl"
+        mmsport="8080"
+        mmsproxy="193.12.40.64"
+        network_type_bitmask="18"
+        protocol="IPV4V6"
+        type="xcap"
+    />
+    <apn
+        mcc="204"
+        mnc="03"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="204"
@@ -105,6 +136,16 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="default,dun"
+    />
+    <apn
+        mcc="204"
+        mnc="04"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="204"
@@ -323,6 +364,16 @@
     <apn
         mcc="204"
         mnc="08"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="204"
+        mnc="08"
         carrier="KPN 4G LTE"
         apn="KPN4G.nl"
         mmsc="http://mp.mobiel.kpn/mmsc"
@@ -501,6 +552,16 @@
     <apn
         mcc="204"
         mnc="16"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="204"
+        mnc="16"
         carrier="Odido Internet"
         apn="internet.mobiel"
         authtype="1"
@@ -523,6 +584,16 @@
         proxy=""
         type="default,supl"
         user=""
+    />
+    <apn
+        mcc="204"
+        mnc="20"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="204"

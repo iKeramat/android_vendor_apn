@@ -8,6 +8,14 @@
     <apn
         mcc="284"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+    />
+    <apn
+        mcc="284"
+        mnc="01"
         carrier="M-Tel Internet"
         apn="inet-gprs.mtel.bg"
         mmsc=""
@@ -30,6 +38,16 @@
         proxy=""
         type="mms"
         user="mtel"
+    />
+    <apn
+        mcc="284"
+        mnc="03"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="284"
@@ -103,6 +121,14 @@
         mmsproxy="192.168.87.11"
         type="mms"
         user="mms"
+    />
+    <apn
+        mcc="284"
+        mnc="05"
+        carrier="Telenor VoLTE"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
     />
     <apn
         mcc="284"

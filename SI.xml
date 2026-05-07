@@ -8,6 +8,14 @@
     <apn
         mcc="293"
         mnc="40"
+        carrier="A1Si"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+    />
+    <apn
+        mcc="293"
+        mnc="40"
         carrier="Si.mobil Internet"
         apn="internet.simobil.si"
         mmsc=""
@@ -59,6 +67,24 @@
     />
     <apn
         mcc="293"
+        mnc="41"
+        carrier="Telekom IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+    />
+    <apn
+        mcc="293"
+        mnc="64"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims,ia"
+    />
+    <apn
+        mcc="293"
         mnc="64"
         carrier="T-2 Internet"
         apn="internet.t-2.net"
@@ -82,6 +108,16 @@
         proxy=""
         type="mms"
         user=""
+    />
+    <apn
+        mcc="293"
+        mnc="70"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="293"

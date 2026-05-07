@@ -8,6 +8,15 @@
     <apn
         mcc="605"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="605"
+        mnc="01"
         carrier="MMS Orange"
         apn="mms.otun"
         mmsc="https://mms.orange.tn"
@@ -86,6 +95,14 @@
         carrier="Tunisie Télécom TN"
         apn="internet.tn"
         type="default,supl"
+    />
+    <apn
+        mcc="605"
+        mnc="03"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="605"

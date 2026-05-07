@@ -94,6 +94,15 @@
     <apn
         mcc="454"
         mnc="00"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="454"
+        mnc="00"
         carrier="SUN Mobile"
         apn="SUNMobile"
         authtype="3"
@@ -305,6 +314,15 @@
     <apn
         mcc="454"
         mnc="02"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="454"
+        mnc="02"
         carrier="SUN Mobile"
         apn="SUNMobile"
         authtype="3"
@@ -353,6 +371,19 @@
     <apn
         mcc="454"
         mnc="02"
+        carrier="csl"
+        apn="mobile"
+        authtype="3"
+        mmsc="http://192.168.58.171:8002"
+        mmsport="8080"
+        mmsproxy="192.168.59.51"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+        protocol="IPV4V6"
+        type="default,ia,supl,mms"
+    />
+    <apn
+        mcc="454"
+        mnc="02"
         carrier="csl Tethering"
         apn="lte.internet"
         type="dun"
@@ -376,6 +407,29 @@
         mmsport="8799"
         mmsproxy="172.20.97.116"
         type="default,mms,supl,dun"
+    />
+    <apn
+        mcc="454"
+        mnc="03"
+        carrier="3"
+        apn="mobile.three.com.hk"
+        authtype="1"
+        mmsc="http://mms.um.three.com.hk:10021/mmsc"
+        mmsport="8799"
+        mmsproxy="172.20.97.116"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+        protocol="IPV4V6"
+        type="default,ia,supl,mms"
+    />
+    <apn
+        mcc="454"
+        mnc="03"
+        carrier="3 IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="454"
@@ -428,6 +482,16 @@
     />
     <apn
         mcc="454"
+        mnc="06"
+        carrier="SmarTone IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="454"
         mnc="07"
         carrier="3gnet"
         apn="3gnet"
@@ -446,6 +510,15 @@
     />
     <apn
         mcc="454"
+        mnc="07"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="454"
         mnc="08"
         carrier="Truphone"
         apn="truphone.com"
@@ -459,6 +532,15 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="default"
+    />
+    <apn
+        mcc="454"
+        mnc="10"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="454"
@@ -527,11 +609,31 @@
     />
     <apn
         mcc="454"
+        mnc="12"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="454"
         mnc="13"
         carrier="CMHK"
         apn="cmhk"
         mmsc="http://mms.hk.chinamobile.com/mms"
         type="default,supl,mms"
+    />
+    <apn
+        mcc="454"
+        mnc="13"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="454"
@@ -561,6 +663,16 @@
         mmsport="8080"
         mmsproxy="10.9.9.9"
         type="default,supl,mms"
+    />
+    <apn
+        mcc="454"
+        mnc="15"
+        carrier="SmarTone IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="454"
@@ -598,6 +710,16 @@
     />
     <apn
         mcc="454"
+        mnc="16"
+        carrier="csl IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="454"
         mnc="17"
         carrier="SmarTone HK"
         apn="SmarTone"
@@ -605,6 +727,16 @@
         mmsport="8080"
         mmsproxy="10.9.9.9"
         type="default,supl,mms"
+    />
+    <apn
+        mcc="454"
+        mnc="17"
+        carrier="SmarTone IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="454"
@@ -658,6 +790,15 @@
         mvno_match_data="01040000"
         mvno_type="gid"
         type="default,mms,hipri"
+    />
+    <apn
+        mcc="454"
+        mnc="18"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="454"
@@ -744,6 +885,16 @@
         mmsport="8080"
         mmsproxy="10.140.14.10"
         type="default,mms,hipri"
+    />
+    <apn
+        mcc="454"
+        mnc="19"
+        carrier="csl IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="454"

@@ -82,6 +82,17 @@
     <apn
         mcc="722"
         mnc="310"
+        carrier="CLARO IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="722"
+        mnc="310"
         carrier="CTI"
         apn="internet.ctimovil.com.ar"
         password="guest"
@@ -178,6 +189,27 @@
     />
     <apn
         mcc="722"
+        mnc="310"
+        carrier="Claro Internet"
+        apn="igprs.claro.com.ar"
+        network_type_bitmask="18"
+        password="ctigprs999"
+        protocol="IPV4V6"
+        type="xcap"
+        user="ctigprs"
+    />
+    <apn
+        mcc="722"
+        mnc="34"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="722"
         mnc="34"
         carrier="Personal"
         apn="datos.personal.com"
@@ -245,6 +277,16 @@
         password=""
         type="default,supl"
         user=""
+    />
+    <apn
+        mcc="722"
+        mnc="341"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="722"

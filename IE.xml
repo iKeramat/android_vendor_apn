@@ -93,6 +93,26 @@
     />
     <apn
         mcc="272"
+        mnc="01"
+        carrier="ims"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IP"
+        roaming_protocol="IP"
+        type="ims,ia"
+    />
+    <apn
+        mcc="272"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="272"
         mnc="02"
         carrier="O2 IE"
         apn="wap.dol.ie"
@@ -228,6 +248,16 @@
     />
     <apn
         mcc="272"
+        mnc="03"
+        carrier="ims"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="272"
         mnc="05"
         carrier="3 IE MMS"
         apn="3ireland.ie"
@@ -280,6 +310,16 @@
         proxy=""
         type="mms"
         user=""
+    />
+    <apn
+        mcc="272"
+        mnc="05"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="272"

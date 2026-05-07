@@ -8,6 +8,14 @@
     <apn
         mcc="608"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="608"
+        mnc="01"
         carrier="Orange GPRS"
         apn="internet"
         type="default,supl"

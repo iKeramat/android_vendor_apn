@@ -8,6 +8,17 @@
     <apn
         mcc="716"
         mnc="06"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="716"
+        mnc="06"
         carrier="Movistar INTERNET"
         apn="movistar.pe"
         authtype="1"
@@ -39,6 +50,29 @@
         password="claro"
         type="default,supl"
         user="claro"
+    />
+    <apn
+        mcc="716"
+        mnc="10"
+        carrier="CLARO DATOS"
+        apn="claro.pe"
+        authtype="1"
+        network_type_bitmask="18"
+        password="claro"
+        protocol="IPV4V6"
+        type="xcap"
+        user="claro"
+    />
+    <apn
+        mcc="716"
+        mnc="10"
+        carrier="CLARO IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
     />
     <apn
         mcc="716"
@@ -77,5 +111,13 @@
         proxy=""
         type="mms"
         user=""
+    />
+    <apn
+        mcc="716"
+        mnc="17"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
     />
 </apns>

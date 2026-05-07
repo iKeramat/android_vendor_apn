@@ -8,6 +8,16 @@
     <apn
         mcc="645"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="645"
+        mnc="01"
         carrier="Zambia MMS"
         apn="mms"
         mmsc="http://10.150.0.130/servlets/mms"
@@ -25,6 +35,16 @@
         port="8080"
         proxy="10.150.0.140"
         type="default,supl"
+    />
+    <apn
+        mcc="645"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="645"

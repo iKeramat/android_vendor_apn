@@ -8,6 +8,13 @@
     <apn
         mcc="631"
         mnc="02"
+        carrier="IMS"
+        apn="ims"
+        type="ims"
+    />
+    <apn
+        mcc="631"
+        mnc="02"
         carrier="Unitel Internet"
         apn="internet.unitel.co.ao"
         type="default,supl"

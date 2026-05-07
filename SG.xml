@@ -56,6 +56,16 @@
     <apn
         mcc="525"
         mnc="03"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IP"
+        type="ims"
+    />
+    <apn
+        mcc="525"
+        mnc="03"
         carrier="M1 IMS"
         apn="IMS"
         carrier_id="1706"
@@ -175,6 +185,16 @@
         protocol="IPV4V6"
         roaming_protocol="IP"
         type="default,ia,supl"
+    />
+    <apn
+        mcc="525"
+        mnc="10"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="525"

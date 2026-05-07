@@ -41,10 +41,31 @@
     <apn
         mcc="234"
         mnc="02"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="234"
+        mnc="02"
         carrier="O2 Internet(post)"
         apn="mobile.o2.co.uk"
         password="password"
         type="default,supl"
+        user="O2web"
+    />
+    <apn
+        mcc="234"
+        mnc="02"
+        carrier="O2 Internet(post)"
+        apn="mobile.o2.co.uk"
+        network_type_bitmask="18"
+        password="password"
+        protocol="IPV4V6"
+        type="mms,xcap"
         user="O2web"
     />
     <apn
@@ -123,6 +144,24 @@
     <apn
         mcc="234"
         mnc="08"
+        carrier="BT MMS"
+        apn="mms.btonephone.com"
+        mmsc="http://mmsc"
+        mmsport="8080"
+        mmsproxy="proxy.btonephone.com"
+        mvno_match_data="BT"
+        mvno_type="spn"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        password=""
+        port=""
+        protocol="IP"
+        proxy=""
+        type="mms,xcap"
+        user=""
+    />
+    <apn
+        mcc="234"
+        mnc="08"
         carrier="BT One Phone Internet"
         apn="btmobile.bt.com"
         mmsc=""
@@ -133,6 +172,18 @@
         proxy=""
         type="default,supl"
         user=""
+    />
+    <apn
+        mcc="234"
+        mnc="08"
+        carrier="IMS"
+        apn="ims"
+        authtype="1"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
     />
     <apn
         mcc="234"
@@ -159,6 +210,16 @@
         port="80"
         proxy="10.0.3.101"
         type="default,supl"
+    />
+    <apn
+        mcc="234"
+        mnc="10"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
     />
     <apn
         mcc="234"
@@ -311,11 +372,43 @@
     />
     <apn
         mcc="234"
+        mnc="10"
+        carrier="o2 Mobile Web"
+        apn="mobile.o2.co.uk"
+        network_type_bitmask="18"
+        password="password"
+        protocol="IPV4V6"
+        type="mms,xcap"
+        user="mobileweb"
+    />
+    <apn
+        mcc="234"
+        mnc="11"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="234"
         mnc="11"
         carrier="O2 Internet(post)"
         apn="mobile.o2.co.uk"
         password="password"
         type="default,supl"
+        user="O2web"
+    />
+    <apn
+        mcc="234"
+        mnc="11"
+        carrier="O2 Internet(post)"
+        apn="mobile.o2.co.uk"
+        network_type_bitmask="18"
+        password="password"
+        protocol="IPV4V6"
+        type="mms,xcap"
         user="O2web"
     />
     <apn
@@ -829,6 +922,16 @@
     <apn
         mcc="234"
         mnc="20"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="234"
+        mnc="20"
         carrier="iD Mobile (UK)"
         apn="id"
         mmsc="http://mms.um.idmobile.co.uk:10021/mmsc"
@@ -986,6 +1089,24 @@
     <apn
         mcc="234"
         mnc="30"
+        carrier="BT MMS"
+        apn="mms.btonephone.com"
+        mmsc="http://mmsc"
+        mmsport="8080"
+        mmsproxy="proxy.btonephone.com"
+        mvno_match_data="BT"
+        mvno_type="spn"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        password=""
+        port=""
+        protocol="IP"
+        proxy=""
+        type="mms,xcap"
+        user=""
+    />
+    <apn
+        mcc="234"
+        mnc="30"
         carrier="BT One Phone Internet"
         apn="btmobile.bt.com"
         mmsc=""
@@ -1058,6 +1179,37 @@
         proxy=""
         type="mms"
         user="eesecure"
+    />
+    <apn
+        mcc="234"
+        mnc="30"
+        carrier="EE MMS"
+        apn="eezone"
+        authtype="1"
+        mmsc="http://mms/"
+        mmsport="8080"
+        mmsproxy="149.254.201.135"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        password="secure"
+        port=""
+        protocol="IP"
+        proxy=""
+        type="mms,xcap"
+        user="eesecure"
+    />
+    <apn
+        mcc="234"
+        mnc="30"
+        carrier="IMS"
+        apn="ims"
+        authtype="1"
+        mvno_match_data="B2"
+        mvno_type="gid"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
     />
     <apn
         mcc="234"
@@ -1170,6 +1322,35 @@
     <apn
         mcc="234"
         mnc="31"
+        carrier="EE MMS"
+        apn="eezone"
+        authtype="1"
+        mmsc="http://mms/"
+        mmsport="8080"
+        mmsproxy="149.254.201.135"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        password="secure"
+        port=""
+        protocol="IP"
+        proxy=""
+        type="mms,xcap"
+        user="eesecure"
+    />
+    <apn
+        mcc="234"
+        mnc="31"
+        carrier="IMS"
+        apn="ims"
+        authtype="1"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="234"
+        mnc="31"
         carrier="Virgin UK"
         apn="goto.virginmobile.uk"
         type="default,supl"
@@ -1219,6 +1400,35 @@
     <apn
         mcc="234"
         mnc="32"
+        carrier="EE MMS"
+        apn="eezone"
+        authtype="1"
+        mmsc="http://mms/"
+        mmsport="8080"
+        mmsproxy="149.254.201.135"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        password="secure"
+        port=""
+        protocol="IP"
+        proxy=""
+        type="mms,xcap"
+        user="eesecure"
+    />
+    <apn
+        mcc="234"
+        mnc="32"
+        carrier="IMS"
+        apn="ims"
+        authtype="1"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="234"
+        mnc="32"
         carrier="Virgin UK"
         apn="goto.virginmobile.uk"
         type="default,supl"
@@ -1297,6 +1507,37 @@
         proxy=""
         type="mms"
         user="eesecure"
+    />
+    <apn
+        mcc="234"
+        mnc="33"
+        carrier="EE MMS"
+        apn="eezone"
+        authtype="1"
+        mmsc="http://mms/"
+        mmsport="8080"
+        mmsproxy="149.254.201.135"
+        mvno_match_data="EE"
+        mvno_type="spn"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        password="secure"
+        port=""
+        protocol="IP"
+        proxy=""
+        type="mms,xcap"
+        user="eesecure"
+    />
+    <apn
+        mcc="234"
+        mnc="33"
+        carrier="IMS"
+        apn="ims"
+        authtype="1"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
     />
     <apn
         mcc="234"
@@ -1476,6 +1717,33 @@
     <apn
         mcc="234"
         mnc="34"
+        carrier="EE MMS"
+        apn="eezone"
+        authtype="1"
+        mmsc="http://mms/"
+        mmsport="8080"
+        mmsproxy="149.254.201.135"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        password="secure"
+        protocol="IP"
+        type="mms,xcap"
+        user="eesecure"
+    />
+    <apn
+        mcc="234"
+        mnc="34"
+        carrier="IMS"
+        apn="ims"
+        authtype="1"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="234"
+        mnc="34"
         carrier="Orange Internet"
         apn="orangeinternet"
         type="default,supl"
@@ -1520,6 +1788,16 @@
         carrier="Truphone Internet"
         apn="truphone.com"
         type="default,supl"
+    />
+    <apn
+        mcc="234"
+        mnc="38"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="234"
@@ -1571,6 +1849,15 @@
         proxy="212.9.19.199"
         type="default,supl"
         user="wap"
+    />
+    <apn
+        mcc="234"
+        mnc="55"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="234"
@@ -1777,5 +2064,29 @@
         password="secure"
         type="mms"
         user="eesecure"
+    />
+    <apn
+        mcc="234"
+        mnc="86"
+        carrier="EE MMS"
+        apn="eezone"
+        authtype="1"
+        mmsc="http://mms/"
+        mmsport="8080"
+        mmsproxy="149.254.201.135"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        password="secure"
+        protocol="IP"
+        type="xcap"
+        user="eesecure"
+    />
+    <apn
+        mcc="234"
+        mnc="86"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        type="ims"
     />
 </apns>

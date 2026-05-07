@@ -20,6 +20,17 @@
     <apn
         mcc="505"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="505"
+        mnc="01"
         carrier="Telstra 3G Pay by Time"
         apn="telstra.pcpack"
         password="telstra"
@@ -168,6 +179,15 @@
     <apn
         mcc="505"
         mnc="02"
+        carrier="Optus IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        type="ims"
+    />
+    <apn
+        mcc="505"
+        mnc="02"
         carrier="Optus Internet"
         apn="yesinternet"
         password="*"
@@ -271,6 +291,16 @@
     <apn
         mcc="505"
         mnc="03"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="505"
+        mnc="03"
         carrier="Vodafone AU"
         apn="live.vodafone.com"
         mmsc="http://pxt.vodafone.net.au/pxtsend"
@@ -319,6 +349,16 @@
     />
     <apn
         mcc="505"
+        mnc="06"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="505"
         mnc="07"
         carrier="VF AU PXT"
         apn="live.vodafone.com"
@@ -333,6 +373,17 @@
         carrier="VF Internet"
         apn="vfinternet.au"
         type="default,supl"
+    />
+    <apn
+        mcc="505"
+        mnc="11"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
     />
     <apn
         mcc="505"
@@ -387,6 +438,17 @@
     <apn
         mcc="505"
         mnc="71"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="505"
+        mnc="71"
         carrier="Telstra Internet"
         apn="Telstra.wap"
         type="default,supl"
@@ -400,6 +462,17 @@
         mmsport="80"
         mmsproxy="10.1.1.180"
         type="mms"
+    />
+    <apn
+        mcc="505"
+        mnc="72"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
     />
     <apn
         mcc="505"
@@ -446,6 +519,15 @@
         carrier="VF Internet"
         apn="vfinternet.au"
         type="default,supl"
+    />
+    <apn
+        mcc="505"
+        mnc="90"
+        carrier="Optus IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        type="ims"
     />
     <apn
         mcc="505"

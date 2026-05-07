@@ -74,6 +74,23 @@
         mcc="262"
         mnc="01"
         carrier="Telekom Internet"
+        apn="hos"
+        authtype="1"
+        bearer_bitmask="18"
+        mmsc="http://mms.t-mobile.de/servlets/mms"
+        mmsport="8008"
+        mmsproxy="109.237.176.193"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        password="telekom"
+        protocol="IPV4V6"
+        type="mms,xcap"
+        user="telekom"
+        user_visible="false"
+    />
+    <apn
+        mcc="262"
+        mnc="01"
+        carrier="Telekom Internet"
         apn="internet.telekom"
         authtype="1"
         bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17"
@@ -117,6 +134,16 @@
         mmsport="80"
         mmsproxy="139.7.29.17"
         type="mms"
+    />
+    <apn
+        mcc="262"
+        mnc="02"
+        carrier="VF DE IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="262"
@@ -190,6 +217,19 @@
         mmsport="8080"
         mmsproxy="82.113.100.5"
         type="default,supl,mms"
+    />
+    <apn
+        mcc="262"
+        mnc="03"
+        carrier="O2 DE Internet"
+        apn="internet"
+        carrier_id="1456"
+        mmsc="http://10.81.0.7:8002"
+        mmsport="8080"
+        mmsproxy="82.113.100.5"
+        network_type_bitmask="18"
+        protocol="IPV4V6"
+        type="mms"
     />
     <apn
         mcc="262"
@@ -291,6 +331,21 @@
         mvno_match_data="2620739"
         mvno_type="imsi"
         type="default,supl,mms"
+    />
+    <apn
+        mcc="262"
+        mnc="07"
+        carrier="O2 DE Internet"
+        apn="internet"
+        carrier_id="1456"
+        mmsc="http://10.81.0.7:8002"
+        mmsport="8080"
+        mmsproxy="82.113.100.5"
+        mvno_match_data="262072"
+        mvno_type="imsi"
+        network_type_bitmask="18"
+        protocol="IPV4V6"
+        type="mms"
     />
     <apn
         mcc="262"

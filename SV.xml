@@ -24,6 +24,17 @@
     />
     <apn
         mcc="706"
+        mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="706"
         mnc="02"
         carrier="Digicel MMS"
         apn="wap"
@@ -111,6 +122,17 @@
     <apn
         mcc="706"
         mnc="04"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="706"
+        mnc="04"
         carrier="Movistar MMS"
         apn="mms.movistar.sv"
         mmsc="http://mms.movistar.sv"
@@ -132,6 +154,20 @@
         port=""
         proxy=""
         type="default,supl"
+        user="movistarsv"
+    />
+    <apn
+        mcc="706"
+        mnc="04"
+        carrier="Movistar SV"
+        apn="internet.movistar.sv"
+        mmsc=""
+        network_type_bitmask="18"
+        password="movistarsv"
+        port=""
+        protocol="IPV4V6"
+        proxy=""
+        type="xcap"
         user="movistarsv"
     />
     <apn

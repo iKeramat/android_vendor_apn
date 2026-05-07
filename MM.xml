@@ -8,6 +8,14 @@
     <apn
         mcc="414"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="414"
+        mnc="01"
         carrier="MPT"
         apn="mptnet"
         password="mptnet"

@@ -8,6 +8,16 @@
     <apn
         mcc="655"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IP"
+        roaming_protocol="IP"
+        type="ims"
+    />
+    <apn
+        mcc="655"
+        mnc="01"
         carrier="LTE.Vodacom"
         apn="lte.vodacom.za"
         type="default,supl"
@@ -76,6 +86,16 @@
     />
     <apn
         mcc="655"
+        mnc="02"
+        carrier="ims"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="655"
         mnc="07"
         carrier="CELL C INTERNET"
         apn="internet"
@@ -85,6 +105,16 @@
         port="8080"
         proxy=""
         type="*"
+    />
+    <apn
+        mcc="655"
+        mnc="07"
+        carrier="Cell C IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IP"
+        roaming_protocol="IP"
+        type="ims"
     />
     <apn
         mcc="655"
@@ -124,6 +154,16 @@
         proxy="196.11.240.251"
         type="default,supl"
         user="mtnwap"
+    />
+    <apn
+        mcc="655"
+        mnc="10"
+        carrier="MTN IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IP"
+        roaming_protocol="IP"
+        type="ims"
     />
     <apn
         mcc="655"

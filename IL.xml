@@ -79,6 +79,16 @@
     />
     <apn
         mcc="425"
+        mnc="01"
+        carrier="ims"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="425"
         mnc="02"
         carrier="CellCOM"
         apn="sphone"
@@ -112,6 +122,25 @@
         mmsport="8080"
         mmsproxy="172.31.29.38"
         type="mms"
+    />
+    <apn
+        mcc="425"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="425"
+        mnc="03"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="ims"
     />
     <apn
         mcc="425"
@@ -255,6 +284,14 @@
         mmsc="http://mms.hotmobile.co.il"
         mmsport="80"
         type="mms"
+    />
+    <apn
+        mcc="425"
+        mnc="07"
+        carrier="ims"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
     />
     <apn
         mcc="425"

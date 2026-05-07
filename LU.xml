@@ -8,6 +8,16 @@
     <apn
         mcc="270"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="ims"
+    />
+    <apn
+        mcc="270"
+        mnc="01"
         carrier="Luxgsm Internet"
         apn="web.pt.lu"
         type="default,supl,mms"
@@ -54,6 +64,15 @@
     <apn
         mcc="270"
         mnc="77"
+        carrier="Tango IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="270"
+        mnc="77"
         carrier="Tango MMS"
         apn="mms"
         authtype="1"
@@ -69,6 +88,16 @@
     <apn
         mcc="270"
         mnc="99"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="270"
+        mnc="99"
         carrier="Orange LU"
         apn="orange.lu"
         authtype="1"
@@ -79,6 +108,22 @@
         port=""
         proxy=""
         type="default,supl,mms"
+        user=""
+    />
+    <apn
+        mcc="270"
+        mnc="99"
+        carrier="Orange LU"
+        apn="orange.lu"
+        authtype="1"
+        mmsc="http://mms.orange.lu"
+        mmsport="8080"
+        mmsproxy="212.88.139.44"
+        network_type_bitmask="18"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
         user=""
     />
 </apns>

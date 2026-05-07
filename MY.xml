@@ -8,6 +8,16 @@
     <apn
         mcc="502"
         mnc="12"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="502"
+        mnc="12"
         carrier="Maxis 2G Internet"
         apn="net"
         password="wap"
@@ -99,6 +109,16 @@
     <apn
         mcc="502"
         mnc="13"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="502"
+        mnc="13"
         carrier="Xpax"
         apn="celcom"
         type="default,supl"
@@ -118,9 +138,28 @@
     <apn
         mcc="502"
         mnc="153"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="502"
+        mnc="153"
         carrier="Unifi"
         apn="unifi"
         type="default,supl"
+    />
+    <apn
+        mcc="502"
+        mnc="153"
+        carrier="Unifi"
+        apn="unifi"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="xcap"
     />
     <apn
         mcc="502"
@@ -176,6 +215,26 @@
         password="mms"
         type="mms"
         user="mms"
+    />
+    <apn
+        mcc="502"
+        mnc="16"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="ims"
+    />
+    <apn
+        mcc="502"
+        mnc="18"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="502"
@@ -250,6 +309,16 @@
         mmsport="8080"
         mmsproxy="10.128.1.242"
         type="mms"
+    />
+    <apn
+        mcc="502"
+        mnc="19"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="502"

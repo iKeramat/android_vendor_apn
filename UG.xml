@@ -14,6 +14,16 @@
     />
     <apn
         mcc="641"
+        mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="641"
         mnc="10"
         carrier="MTN"
         apn="yellopix.men.co.ug"
@@ -23,6 +33,15 @@
         port="8080"
         proxy="10.120.0.138"
         type="*"
+    />
+    <apn
+        mcc="641"
+        mnc="10"
+        carrier="MTN IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="641"
@@ -85,6 +104,16 @@
         proxy=""
         type="default,supl"
         user=""
+    />
+    <apn
+        mcc="641"
+        mnc="22"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="641"

@@ -300,6 +300,17 @@
     <apn
         mcc="208"
         mnc="01"
+        carrier="Orange IMS APN"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="208"
+        mnc="01"
         carrier="Orange Internet"
         apn="ofnew.fr"
         mmsc=""
@@ -559,6 +570,14 @@
         proxy="195.230.105.25"
         type="default,supl"
         user=""
+    />
+    <apn
+        mcc="208"
+        mnc="09"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
     />
     <apn
         mcc="208"
@@ -903,6 +922,16 @@
     <apn
         mcc="208"
         mnc="10"
+        carrier="SFR IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="208"
+        mnc="10"
         carrier="SFR Internet Mobile"
         apn="sl2sfr"
         password=""
@@ -1191,6 +1220,16 @@
     />
     <apn
         mcc="208"
+        mnc="11"
+        carrier="SFR IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="208"
         mnc="13"
         carrier="ACCESS DATA"
         apn="websfr"
@@ -1217,6 +1256,16 @@
     />
     <apn
         mcc="208"
+        mnc="13"
+        carrier="SFR IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="208"
         mnc="15"
         carrier="Free Mobile"
         apn="free"
@@ -1225,6 +1274,19 @@
         port=""
         proxy=""
         type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="208"
+        mnc="15"
+        carrier="Free Mobile"
+        apn="free"
+        mmsc=""
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+        password=""
+        port=""
+        proxy=""
+        type="default,supl,mms,dun,hipri"
         user=""
     />
     <apn
@@ -1242,12 +1304,33 @@
     <apn
         mcc="208"
         mnc="15"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="208"
+        mnc="15"
         carrier="Iliad Int"
         apn="iliad"
         mmsc="http://mms.iliad-italia.it"
         mvno_match_data="F003"
         mvno_type="gid"
         type="default,supl,mms"
+    />
+    <apn
+        mcc="208"
+        mnc="15"
+        carrier="Iliad Int"
+        apn="iliad"
+        mmsc="http://mms.iliad-italia.it"
+        mvno_match_data="F003"
+        mvno_type="gid"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+        type="default,supl,mms,dun"
     />
     <apn
         mcc="208"
@@ -1263,6 +1346,16 @@
         apn="bornsipmms"
         mmsc="http://mms.bornsip.fr:8191"
         type="mms"
+    />
+    <apn
+        mcc="208"
+        mnc="20"
+        carrier="Bouygues IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="208"
@@ -1366,6 +1459,16 @@
         proxy=""
         type="default,supl"
         user=""
+    />
+    <apn
+        mcc="208"
+        mnc="21"
+        carrier="Bouygues IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="208"
@@ -1513,6 +1616,16 @@
     <apn
         mcc="208"
         mnc="26"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="208"
+        mnc="26"
         carrier="NRJ MMS"
         apn="mmsnrj"
         mmsc="http://mmsnrj"
@@ -1538,6 +1651,20 @@
     />
     <apn
         mcc="208"
+        mnc="26"
+        carrier="NRJ WEB"
+        apn="fnetnrj"
+        mmsc=""
+        network_type_bitmask="18"
+        password=""
+        port=""
+        protocol="IPV4V6"
+        proxy=""
+        type="xcap"
+        user=""
+    />
+    <apn
+        mcc="208"
         mnc="30"
         carrier="Syma"
         apn="symacom.fr"
@@ -1547,6 +1674,16 @@
         proxy=""
         type="default,supl"
         user=""
+    />
+    <apn
+        mcc="208"
+        mnc="88"
+        carrier="Bouygues IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="208"

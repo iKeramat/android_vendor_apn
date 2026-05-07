@@ -94,10 +94,32 @@
     <apn
         mcc="734"
         mnc="04"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="734"
+        mnc="04"
         carrier="Movistar INTERNET"
         apn="internet.movistar.ve"
         password=""
         type="default,supl"
+        user="http://www.movistar.com.ve/"
+    />
+    <apn
+        mcc="734"
+        mnc="04"
+        carrier="Movistar INTERNET"
+        apn="internet.movistar.ve"
+        network_type_bitmask="18"
+        password=""
+        protocol="IPV4V6"
+        type="xcap"
         user="http://www.movistar.com.ve/"
     />
     <apn

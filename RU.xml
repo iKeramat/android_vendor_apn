@@ -22,6 +22,15 @@
     <apn
         mcc="250"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="250"
+        mnc="01"
         carrier="MTS RU"
         apn="internet.mts.ru"
         authtype="1"
@@ -46,6 +55,17 @@
         proxy=""
         type="mms"
         user="mts"
+    />
+    <apn
+        mcc="250"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
     />
     <apn
         mcc="250"
@@ -257,6 +277,16 @@
         proxy=""
         type="default,supl"
         user="beeline"
+    />
+    <apn
+        mcc="250"
+        mnc="11"
+        carrier="IMS YOTA"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="250"
@@ -536,6 +566,14 @@
     />
     <apn
         mcc="250"
+        mnc="50"
+        carrier="Sberbank-Telecom IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+    />
+    <apn
+        mcc="250"
         mnc="62"
         carrier="Tinkoff Mobile"
         apn="m.tinkoff"
@@ -640,5 +678,16 @@
         password="beeline"
         type="default,supl"
         user="beeline"
+    />
+    <apn
+        mcc="250"
+        mnc="99"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IP"
+        roaming_protocol="IP"
+        type="ims"
+        user_visible="false"
     />
 </apns>

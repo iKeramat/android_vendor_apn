@@ -8,6 +8,15 @@
     <apn
         mcc="427"
         mnc="01"
+        carrier="OQ IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        type="ims"
+    />
+    <apn
+        mcc="427"
+        mnc="01"
         carrier="Q-tel"
         apn="web.qtel"
         password="gprs"
@@ -44,6 +53,14 @@
         mmsport="8080"
         mmsproxy="10.23.8.3"
         type="mms"
+    />
+    <apn
+        mcc="427"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
     />
     <apn
         mcc="427"

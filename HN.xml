@@ -8,6 +8,15 @@
     <apn
         mcc="708"
         mnc="02"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="708"
+        mnc="02"
         carrier="INTERNET TIGO HN"
         apn="internet.tigo.hn"
         password=""

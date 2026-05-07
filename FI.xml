@@ -105,6 +105,16 @@
     <apn
         mcc="244"
         mnc="03"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="ims"
+    />
+    <apn
+        mcc="244"
+        mnc="03"
         carrier="OP WAP GPRS"
         apn="internet"
         mmsc=""
@@ -208,6 +218,26 @@
         proxy=""
         type="mms"
         user=""
+    />
+    <apn
+        mcc="244"
+        mnc="04"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="ims"
+    />
+    <apn
+        mcc="244"
+        mnc="05"
+        carrier="Elisa IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="244"
@@ -535,6 +565,16 @@
     <apn
         mcc="244"
         mnc="12"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="ims"
+    />
+    <apn
+        mcc="244"
+        mnc="12"
         carrier="KYMP Internet"
         apn="internet.kymp.net"
         mmsc=""
@@ -683,6 +723,16 @@
     />
     <apn
         mcc="244"
+        mnc="13"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="ims"
+    />
+    <apn
+        mcc="244"
         mnc="14"
         carrier="GSMAland internet"
         apn="internet"
@@ -718,6 +768,16 @@
         proxy="194.110.177.70"
         type="default,supl"
         user=""
+    />
+    <apn
+        mcc="244"
+        mnc="21"
+        carrier="Elisa IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="244"
@@ -758,6 +818,17 @@
         proxy=""
         type="default,supl"
         user=""
+    />
+    <apn
+        mcc="244"
+        mnc="91"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
     />
     <apn
         mcc="244"

@@ -7,10 +7,80 @@
 <apns version="8">
     <apn
         mcc="432"
+        mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="432"
+        mnc="01"
+        carrier="Samantel"
+        apn="samantel"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,supl"
+    />
+    <apn
+        mcc="432"
+        mnc="08"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="432"
+        mnc="08"
+        carrier="Shatelmobile"
+        apn="shatelmobile"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,supl"
+    />
+    <apn
+        mcc="432"
+        mnc="11"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="432"
         mnc="11"
         carrier="IR-MCI"
         apn="mcinet"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
         type="default,supl"
+    />
+    <apn
+        mcc="432"
+        mnc="11"
+        carrier="IR-MCI MMS"
+        apn="mcinet"
+        mmsc="http://192.168.193.134:38090/was"
+        mmsport="8080"
+        mmsproxy="192.168.194.73"
+        type="mms"
+    />
+    <apn
+        mcc="432"
+        mnc="20"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="432"
@@ -27,6 +97,8 @@
         mnc="20"
         carrier="Rightel"
         apn="rightel"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
         type="default,supl"
     />
     <apn
@@ -38,6 +110,16 @@
         mmsport="8080"
         mmsproxy="10.200.39.10"
         type="mms"
+    />
+    <apn
+        mcc="432"
+        mnc="35"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="432"

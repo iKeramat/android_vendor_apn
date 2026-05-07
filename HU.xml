@@ -8,6 +8,16 @@
     <apn
         mcc="216"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="216"
+        mnc="01"
         carrier="Pannon"
         apn="net"
         mmsc=""
@@ -75,6 +85,27 @@
     />
     <apn
         mcc="216"
+        mnc="01"
+        carrier="Telenor online"
+        apn="online"
+        network_type_bitmask="18"
+        password=""
+        protocol="IP"
+        type="xcap"
+        user=""
+    />
+    <apn
+        mcc="216"
+        mnc="30"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="216"
         mnc="30"
         carrier="T-Mobile HU"
         apn="wnw"
@@ -130,6 +161,14 @@
         carrier="Telekom HU NET"
         apn="internet.telekom"
         type="default,supl"
+    />
+    <apn
+        mcc="216"
+        mnc="70"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
     />
     <apn
         mcc="216"

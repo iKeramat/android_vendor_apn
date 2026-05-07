@@ -8,6 +8,15 @@
     <apn
         mcc="247"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        type="ims"
+    />
+    <apn
+        mcc="247"
+        mnc="01"
         carrier="LMT"
         apn="internet.lmt.lv"
         mmsc=""
@@ -30,6 +39,17 @@
         proxy=""
         type="mms"
         user=""
+    />
+    <apn
+        mcc="247"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims,ia"
+        user_visible="false"
     />
     <apn
         mcc="247"
@@ -81,5 +101,14 @@
         proxy=""
         type="mms"
         user="mms@mms"
+    />
+    <apn
+        mcc="247"
+        mnc="05"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        type="ims"
     />
 </apns>

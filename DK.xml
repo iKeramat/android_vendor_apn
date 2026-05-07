@@ -58,6 +58,16 @@
     <apn
         mcc="238"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="238"
+        mnc="01"
         carrier="Lycamobile"
         apn="data.lycamobile.dk"
         password="plus"
@@ -300,6 +310,16 @@
     <apn
         mcc="238"
         mnc="02"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IP"
+        roaming_protocol="IP"
+        type="ims"
+    />
+    <apn
+        mcc="238"
+        mnc="02"
         carrier="Lebara Internet"
         apn="internet.lebara.dk"
         mmsc=""
@@ -406,6 +426,18 @@
     <apn
         mcc="238"
         mnc="06"
+        carrier="3"
+        apn="data.tre.dk"
+        authtype="3"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+        password=""
+        protocol="IPV4V6"
+        type="default,ia,supl,mms"
+        user=""
+    />
+    <apn
+        mcc="238"
+        mnc="06"
         carrier="3 DK"
         apn="data.tre.dk"
         mmsc="http://mms.3.dk"
@@ -453,6 +485,26 @@
         proxy=""
         type="mms"
         user=""
+    />
+    <apn
+        mcc="238"
+        mnc="06"
+        carrier="ims"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IP"
+        type="ims"
+    />
+    <apn
+        mcc="238"
+        mnc="10"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="238"
@@ -601,6 +653,17 @@
     <apn
         mcc="238"
         mnc="20"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="238"
+        mnc="20"
         carrier="Siminn Internet"
         apn="websp"
         mmsc=""
@@ -683,6 +746,17 @@
     <apn
         mcc="238"
         mnc="30"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="238"
+        mnc="30"
         carrier="Siminn Internet"
         apn="websp"
         mmsc=""
@@ -740,6 +814,16 @@
         password=""
         type="default,supl"
         user=""
+    />
+    <apn
+        mcc="238"
+        mnc="77"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IP"
+        roaming_protocol="IP"
+        type="ims"
     />
     <apn
         mcc="238"

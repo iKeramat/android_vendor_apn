@@ -8,6 +8,15 @@
     <apn
         mcc="712"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="712"
+        mnc="01"
         carrier="Kolbi"
         apn="kolbi3g"
         type="default,supl"
@@ -44,6 +53,15 @@
     <apn
         mcc="712"
         mnc="02"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="712"
+        mnc="02"
         carrier="Kolbi"
         apn="kolbi3g"
         type="default,supl"
@@ -68,6 +86,15 @@
     <apn
         mcc="712"
         mnc="03"
+        carrier="Claro"
+        apn="internet.ideasclaro"
+        network_type_bitmask="18"
+        protocol="IPV4V6"
+        type="xcap"
+    />
+    <apn
+        mcc="712"
+        mnc="03"
         carrier="Claro MMS"
         apn="mms.ideasclaro"
         mmsc="http://mms.ideasclaro.com:8002"
@@ -77,12 +104,46 @@
     />
     <apn
         mcc="712"
+        mnc="03"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="712"
+        mnc="04"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="712"
         mnc="04"
         carrier="Movistar INTERNET"
         apn="internet.movistar.cr"
         authtype="1"
         password="movistarcr"
         type="default,supl"
+        user="movistarcr"
+    />
+    <apn
+        mcc="712"
+        mnc="04"
+        carrier="Movistar INTERNET"
+        apn="internet.movistar.cr"
+        authtype="1"
+        network_type_bitmask="18"
+        password="movistarcr"
+        protocol="IPV4V6"
+        type="xcap"
         user="movistarcr"
     />
     <apn

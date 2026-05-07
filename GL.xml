@@ -8,6 +8,13 @@
     <apn
         mcc="290"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        type="ims"
+    />
+    <apn
+        mcc="290"
+        mnc="01"
         carrier="Tele GPRS"
         apn="internet"
         mmsc=""

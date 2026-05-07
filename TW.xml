@@ -15,6 +15,16 @@
     <apn
         mcc="466"
         mnc="01"
+        carrier="FarEasTone IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="466"
+        mnc="01"
         carrier="FarEasTone MMS"
         apn="fetnet01"
         mmsc="http://mms"
@@ -74,6 +84,16 @@
     <apn
         mcc="466"
         mnc="89"
+        carrier="T Star (IMS)"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IP"
+        roaming_protocol="IP"
+        type="ims"
+    />
+    <apn
+        mcc="466"
+        mnc="89"
         carrier="T Star-Internet"
         apn="internet"
         protocol="IPV4V6"
@@ -98,6 +118,16 @@
         carrier="CHT"
         apn="internet"
         type="default,supl"
+    />
+    <apn
+        mcc="466"
+        mnc="92"
+        carrier="CHT IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IP"
+        type="ims"
     />
     <apn
         mcc="466"
@@ -175,6 +205,16 @@
     <apn
         mcc="466"
         mnc="93"
+        carrier="台灣大哥大(TW Mobile) (IMS)"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="466"
+        mnc="93"
         carrier="台灣大哥大(TW Mobile) (MMS)"
         apn="mms"
         mmsc="http://mms.catch.net.tw"
@@ -225,6 +265,16 @@
     <apn
         mcc="466"
         mnc="97"
+        carrier="台灣大哥大(TW Mobile) (IMS)"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="466"
+        mnc="97"
         carrier="台灣大哥大MMS"
         apn="mms"
         mmsc="http://mms.catch.net.tw"
@@ -261,6 +311,16 @@
         mmsport="80"
         mmsproxy="10.1.1.2"
         type="mms"
+    />
+    <apn
+        mcc="466"
+        mnc="99"
+        carrier="台灣大哥大(TW Mobile) (IMS)"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="466"

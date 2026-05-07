@@ -8,6 +8,15 @@
     <apn
         mcc="259"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="259"
+        mnc="01"
         carrier="Orange IMO"
         apn="wap.orange.md"
         mmsc="http://wap.orange.md/"
@@ -37,6 +46,16 @@
         mmsport="3128"
         mmsproxy="192.168.127.125"
         type="mms"
+    />
+    <apn
+        mcc="259"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="259"

@@ -57,6 +57,14 @@
     />
     <apn
         mcc="415"
+        mnc="01"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV6"
+        type="ims"
+    />
+    <apn
+        mcc="415"
         mnc="03"
         carrier="Alfa MMS"
         apn="mms.mic1.com.lb"

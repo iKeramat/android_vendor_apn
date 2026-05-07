@@ -8,10 +8,32 @@
     <apn
         mcc="740"
         mnc="00"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="740"
+        mnc="00"
         carrier="Movistar INTERNET"
         apn="internet.movistar.com.ec"
         password="movistar"
         type="default,supl"
+        user="movistar"
+    />
+    <apn
+        mcc="740"
+        mnc="00"
+        carrier="Movistar INTERNET"
+        apn="internet.movistar.com.ec"
+        network_type_bitmask="18"
+        password="movistar"
+        protocol="IPV4V6"
+        type="xcap"
         user="movistar"
     />
     <apn
@@ -40,6 +62,17 @@
     <apn
         mcc="740"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="740"
+        mnc="01"
         carrier="MMS Claro"
         apn="mms.claro.com.ec"
         password=""
@@ -52,6 +85,14 @@
         carrier="Porta EC"
         apn="internet.porta.com.ec"
         type="default,supl"
+    />
+    <apn
+        mcc="740"
+        mnc="02"
+        carrier="CNT VoLTE"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
     />
     <apn
         mcc="740"

@@ -30,12 +30,46 @@
     />
     <apn
         mcc="710"
+        mnc="21"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="710"
+        mnc="30"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="710"
         mnc="30"
         carrier="Movistar INTERNET"
         apn="internet.movistar.ni"
         authtype="1"
         password="movistarni"
         type="default,supl"
+        user="movistarni"
+    />
+    <apn
+        mcc="710"
+        mnc="30"
+        carrier="Movistar INTERNET"
+        apn="internet.movistar.ni"
+        authtype="1"
+        network_type_bitmask="18"
+        password="movistarni"
+        protocol="IPV4V6"
+        type="xcap"
         user="movistarni"
     />
     <apn
@@ -100,6 +134,17 @@
         password="mms"
         type="mms"
         user="mms"
+    />
+    <apn
+        mcc="710"
+        mnc="73"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
     />
     <apn
         mcc="710"

@@ -8,6 +8,17 @@
     <apn
         mcc="231"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="231"
+        mnc="01"
         carrier="Orange Internet"
         apn="internet"
         authtype="3"
@@ -53,6 +64,16 @@
         proxy="213.151.208.156"
         type="default,supl"
         user="wap"
+    />
+    <apn
+        mcc="231"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="231"
@@ -109,6 +130,23 @@
         password=""
         type="default,ia,supl"
         user=""
+    />
+    <apn
+        mcc="231"
+        mnc="03"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        type="ims"
+    />
+    <apn
+        mcc="231"
+        mnc="04"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="231"
@@ -215,6 +253,16 @@
         proxy=""
         type="mms"
         user=""
+    />
+    <apn
+        mcc="231"
+        mnc="06"
+        carrier="O2 VoLTE Hlas"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="ims"
     />
     <apn
         mcc="231"

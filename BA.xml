@@ -106,6 +106,16 @@
     <apn
         mcc="218"
         mnc="05"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="218"
+        mnc="05"
         carrier="M-tel"
         apn="3g1"
         port="80"
@@ -161,5 +171,12 @@
         proxy=""
         type="mms"
         user=""
+    />
+    <apn
+        mcc="218"
+        mnc="90"
+        carrier="IMS"
+        apn="ims"
+        type="ims"
     />
 </apns>

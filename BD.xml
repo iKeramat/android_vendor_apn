@@ -62,6 +62,18 @@
     <apn
         mcc="470"
         mnc="01"
+        carrier="Grameenphone"
+        apn="gpinterneth"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="470"
+        mnc="01"
         carrier="Grameenphone MMS"
         apn="gpmms"
         mmsc="http://mms.gpsurf.net/servlets/mms"
@@ -77,6 +89,25 @@
         port="8080"
         proxy="10.128.1.2"
         type="default,supl"
+    />
+    <apn
+        mcc="470"
+        mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="470"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        type="ims"
+        user_visible="false"
     />
     <apn
         mcc="470"
@@ -132,6 +163,15 @@
     />
     <apn
         mcc="470"
+        mnc="03"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="470"
         mnc="04"
         carrier="Tele Talk"
         apn="wap"
@@ -171,6 +211,14 @@
         port="8080"
         proxy="10.6.0.2"
         type="default,supl"
+    />
+    <apn
+        mcc="470"
+        mnc="07"
+        carrier="IMS"
+        apn="ims"
+        type="ims"
+        user_visible="false"
     />
     <apn
         mcc="470"

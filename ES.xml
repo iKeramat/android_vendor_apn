@@ -144,6 +144,17 @@
     <apn
         mcc="214"
         mnc="03"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="214"
+        mnc="03"
         carrier="Jazztel"
         apn="jazzinternet"
         mmsc=""
@@ -287,6 +298,14 @@
     <apn
         mcc="214"
         mnc="04"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="214"
+        mnc="04"
         carrier="Yoigo Internet"
         apn="internet"
         mmsc=""
@@ -307,6 +326,16 @@
         proxy=""
         type="mms"
         user=""
+    />
+    <apn
+        mcc="214"
+        mnc="05"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
     />
     <apn
         mcc="214"
@@ -620,6 +649,16 @@
     />
     <apn
         mcc="214"
+        mnc="06"
+        carrier="ims"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IP"
+        roaming_protocol="IP"
+        type="ims"
+    />
+    <apn
+        mcc="214"
         mnc="07"
         carrier="Conexión Compartida"
         apn="movistar.es"
@@ -627,6 +666,16 @@
         password="MOVISTAR"
         type="dun"
         user="MOVISTAR"
+    />
+    <apn
+        mcc="214"
+        mnc="07"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
     />
     <apn
         mcc="214"
@@ -671,6 +720,23 @@
         port="8080"
         proxy=""
         type="default,mms,supl"
+        user="telefonica"
+    />
+    <apn
+        mcc="214"
+        mnc="07"
+        carrier="Movistar"
+        apn="telefonica.es"
+        authtype="1"
+        mmsc="http://mms.movistar.com"
+        mmsport="8080"
+        mmsproxy=""
+        network_type_bitmask="18"
+        password="telefonica"
+        port="8080"
+        protocol="IPV4V6"
+        proxy=""
+        type="mms"
         user="telefonica"
     />
     <apn
@@ -769,6 +835,17 @@
     <apn
         mcc="214"
         mnc="19"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="214"
+        mnc="19"
         carrier="Simyo ES"
         apn="gprs-service.com"
         mmsc=""
@@ -795,6 +872,16 @@
         proxy=""
         type="mms"
         user=""
+    />
+    <apn
+        mcc="214"
+        mnc="21"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
     />
     <apn
         mcc="214"

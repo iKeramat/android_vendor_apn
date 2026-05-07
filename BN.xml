@@ -24,6 +24,15 @@
     />
     <apn
         mcc="528"
+        mnc="02"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="528"
         mnc="11"
         carrier="DSTCom"
         apn="dst.internet"
@@ -42,5 +51,14 @@
         password="mms"
         type="mms"
         user="mms"
+    />
+    <apn
+        mcc="528"
+        mnc="11"
+        carrier="IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
 </apns>

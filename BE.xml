@@ -25,6 +25,16 @@
     <apn
         mcc="206"
         mnc="01"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="206"
+        mnc="01"
         carrier="Iusacell Internet"
         apn="web.iusacellgsm.mx"
         authtype="0"
@@ -109,6 +119,16 @@
         mmsport="80"
         mmsproxy="195.130.149.100"
         type="mms"
+    />
+    <apn
+        mcc="206"
+        mnc="05"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="206"
@@ -203,6 +223,16 @@
     />
     <apn
         mcc="206"
+        mnc="10"
+        carrier="ims"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="206"
         mnc="20"
         carrier="BASE Belgium"
         apn="gprs.base.be"
@@ -249,6 +279,15 @@
         password="carrefour"
         type="mms"
         user="carrefour"
+    />
+    <apn
+        mcc="206"
+        mnc="20"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="206"

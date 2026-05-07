@@ -8,6 +8,16 @@
     <apn
         mcc="232"
         mnc="01"
+        carrier="A1 IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="232"
+        mnc="01"
         carrier="A1 Internet"
         apn="a1.net"
         authtype="1"
@@ -28,6 +38,16 @@
         password="ppp"
         type="mms"
         user="ppp@a1plus.at"
+    />
+    <apn
+        mcc="232"
+        mnc="03"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="232"
@@ -65,6 +85,16 @@
     />
     <apn
         mcc="232"
+        mnc="05"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="232"
         mnc="07"
         carrier="HoT Internet"
         apn="webaut"
@@ -82,6 +112,16 @@
     />
     <apn
         mcc="232"
+        mnc="07"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="232"
         mnc="10"
         carrier="3 AT"
         apn="drei.at"
@@ -90,6 +130,16 @@
         mmsproxy="213.94.78.133"
         server="http://mobile.drei.at"
         type="default,supl,mms"
+    />
+    <apn
+        mcc="232"
+        mnc="10"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="232"
@@ -112,6 +162,26 @@
         password="ppp"
         type="mms"
         user="data@bob.at"
+    />
+    <apn
+        mcc="232"
+        mnc="11"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="232"
+        mnc="12"
+        carrier="IMS"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="232"
@@ -143,6 +213,16 @@
         password="tm"
         type="mms"
         user="t-mobile"
+    />
+    <apn
+        mcc="232"
+        mnc="17"
+        carrier="ims"
+        apn="ims"
+        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="232"
